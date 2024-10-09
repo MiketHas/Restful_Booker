@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests Suite">
+    <test name="restful-booker TEST">
+        <classes>
+            <class name="HealthCheckTests"/>
+            <class name="CreateBookingTests"/>
+            <class name="UpdateBookingTests"/>
+            <class name="DeleteBookingTests"/>
+            <class name="GetBookingTests"/>
+            <class name="GetBookingIdsTests"/>
+        </classes>
+    </test>
+</suite>
